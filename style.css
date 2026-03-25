@@ -27,7 +27,7 @@ body {
 /* Hero */
 .hero {
     display: flex;
-    padding: 50px 30px;
+    padding: 60px 30px;
     align-items: center;
     gap: 20px;
 }
@@ -53,6 +53,7 @@ body {
 
 .hero-right img {
     width: 85%;
+    border-radius: 8px;
 }
 
 /* Button */
@@ -63,17 +64,17 @@ button {
     background: #444;
     color: white;
     cursor: pointer;
-    border-radius: 4px;
-    transition: 0.2s;
+    border-radius: 6px;
+    transition: 0.3s;
 }
 
 button:hover {
-    background: #222;
+    background: #000;
 }
 
 /* Features */
 .features {
-    padding: 40px 30px;
+    padding: 60px 30px;
     background: #f7f7f7;
 }
 
@@ -88,6 +89,7 @@ button:hover {
     background: white;
     border-radius: 6px;
     transition: 0.2s;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 }
 
 .feature:hover {
@@ -96,7 +98,7 @@ button:hover {
 
 /* Products */
 .products {
-    padding: 40px 30px;
+    padding: 60px 30px;
 }
 
 .product-list {
@@ -111,13 +113,14 @@ button:hover {
 }
 
 .item:hover {
-    transform: scale(1.03);
+    transform: scale(1.05);
 }
 
 .item img {
     width: 100%;
     max-width: 200px;
     border-radius: 6px;
+    object-fit: cover;
 }
 
 /* Footer */

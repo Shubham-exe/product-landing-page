@@ -5,33 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ProductX</title>
     <link rel="stylesheet" href="style.css">
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 <body>
 
+    <!-- Navbar -->
     <div class="nav">
         <h2>ProductX</h2>
         <div class="links">
             <a href="#">Home</a>
-            <a href="#">Features</a>
-            <a href="#">Products</a>
+            <a href="#features">Features</a>
+            <a href="#products">Products</a>
         </div>
     </div>
 
+    <!-- Hero Section -->
     <div class="hero">
         <div class="hero-left">
             <h1>Make things easier</h1>
             <p>A simple product that helps you save time and stay productive every day.</p>
             <button>Try Now</button>
         </div>
+
         <div class="hero-right">
-            <img src="https://via.placeholder.com/350x250" alt="">
+            <img src="https://picsum.photos/400" alt="product image">
         </div>
     </div>
 
-    <div class="features">
+    <!-- Features -->
+    <div class="features" id="features">
         <h2>Why people use it</h2>
-        <div class="feature-box">
 
+        <div class="feature-box">
             <div class="feature">
                 <h4>Easy to use</h4>
                 <p>Start quickly without learning anything complex.</p>
@@ -46,14 +56,14 @@
                 <h4>Affordable</h4>
                 <p>Designed to be budget-friendly.</p>
             </div>
-
         </div>
     </div>
 
-    <div class="products">
+    <!-- Products -->
+    <div class="products" id="products">
         <h2>Products</h2>
-        <div class="product-list">
 
+        <div class="product-list">
             <div class="item">
                 <img src="https://picsum.photos/200?1">
                 <p>Basic Model</p>
@@ -68,10 +78,10 @@
                 <img src="https://picsum.photos/200?3">
                 <p>Premium Model</p>
             </div>
-
         </div>
     </div>
 
+    <!-- Footer -->
     <div class="footer">
         <p>© 2026 ProductX</p>
     </div>
